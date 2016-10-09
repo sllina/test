@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: s-invoice
+  cloud:
+    config:
+      uri: http://CONFIG-SERVER:8888
+      fail-fast: true
